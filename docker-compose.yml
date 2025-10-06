@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    image: ${DOCKER_IMAGE}
+    ports:
+      - "${PORT}:80"
+    networks:
+      - devops_red_web
+
+networks:
+  devops_red_web:
+    external: true
