@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+    
+        <title>Lecturas para todos</title> <!-- Titulo de mi pestaña-->
+        <meta name="keywords" content="libros, lecturas, autores, bibliotecas moviles" /> <!-- Añadimos las palabras claves-->
+        <meta name="description" content="Los libros son un recurso importante e imprescindible para cualquier sociedad, no solo porque nos nutre de nuevo vocabulario sino porque nos permite imaginar, descubrir, viajar y conocer el mundo que nos rodea." />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+
+        <nav class="navigationBar">
+            <div class="container-fluid">
+              <!--<a class="navbar-brand text-dark" href="#">
+                <strong>Lecturas itinerantes</strong>
+              </a>-->
+        
+                <ul class="nav">
+                  <li class="nav-item active ">
+                    <a class="nav-link" aria-current="page" href="#presentacionItinerante">Itinerante</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#imagenItinerante">Temas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#catalogoItinerante"><strong>Catálogo</strong> </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sumate"><strong>Sumate</strong> </a>
+                  </li>
+        
+                    <li class="nav-item">
+                    <a class="nav-link" href="#conoceOtrosItinerantes"><strong>Más Itinerantes</strong> </a>
+                    </li>
+        
+                </ul>
+        
+            </div>
+          </nav>
+
+        <h1 class="tituloCentrado">Lecturas itinerantes</h1>
+
+        <main>
+
+            <section id="presentacionItinerante"> 
+
+                <div class="galeriaImagenesItinerantes">
+        
+                    <article>
+        
+                        <img src="images/libros_biblioteca.jpg" alt="libros en una biblioteca">
+        
+                        <h2 class="subtituloCentrado">¿Quiénes somos?</h2>
+                
+                        <p class="textoCentrado">Nacimos para extender y facilitar el acceso de los servicios bibliotecarios a zonas rurales y urbanas del país. Hemos creado más de cien sectores de lectura itinerante... 
+                            y vamos por más!</p>
+                     
+                        <button class="button-action verMas" type="button" aria-label="Ver más sobre quienes somos"><strong> Indagar</strong> más</button>
+                    </article>
+                    
+                    <article>
+
+                        <img src="images/apertura_libros.jpg" alt="varios libros abiertos">
+        
+                        <h2 class="subtituloCentrado">¿Qué hacemos?</h2>
+                       
+                        <p class="textoCentrado">Creamos bibliotecas sobre ruedas que llevan adelante propuestas de acercamiento a la lectura. Facilitamos el acceso a libros de calidad que se ajusten a las diferentes edades e intereses de la población.</p>
+                      
+                        <button class="button-action verMas" type="button" aria-label="Ver más sobre lo que hacemos"><strong> Indagar</strong> más</button>
+                    
+                    </article>
+                
+                </div>
+                
+            </section>
+
+            <section id="imagenItinerante">
+                
+                <div class="imagenSeleccionItinerante">
+                    <img src="images/personas_leyendo.jpg" alt="personas leyendo en grupo">
+                    <div class="overlay-text">Foto tomada en un encuentro de lectura en San Juan</div>
+                </div>
+
+                <h2 class="subtituloCentrado">Encuentros de lectura compartida, mesas exploratorias, visitas guiadas y más para descubrir!</h2>
+                <p class="textoCentrado">En un mundo donde la literatura es el refugio de muchos, Lecturas Itinerantes se presenta como una iniciativa vibrante y enriquecedora para los amantes de los libros que ha tejido una red de lectura en diversas provincias, creando un espacio donde la pasión por la literatura se comparte y se expande.</p>
+            
+            </section>
+
+                
+            <section id="catalogoItinerante">
+                
+                <h2 class="subtituloCentrado">Variado <strong>catálogo</strong> de autores y mucho más!</h2>
+                <p class="textoCentrado">Estos son algunos de los autores que nuestros lectores disfrutan, ¿te los vas a perder?</p>
+                <ul class="autoresItinerantes">
+                    <li>
+                        Jane Austen
+                    </li>
+                    <br>
+                    <li>
+                        J. K. Rowling
+                    </li>
+                    <br>
+                    <li>
+                        Julio Cortazar
+                    </li>
+                    <br>
+                    <li>
+                        Mariana Enriquez
+                    </li>
+                    <br>
+                    <li>
+                        Charles Dickens
+                    </li>
+                    <br>
+                    <li>
+                        Wilbur Smith
+                    </li>
+                    <br>
+                    <li>
+                        Quino
+                    </li>
+                    <br>
+                    <li>
+                        Maitena
+                    </li>
+                    <br>
+                    <li>
+                        y muchos más!
+                    </li>
+
+                </ul>
+
+                <button class="button-action indagar" type="button" aria-label="Indagar más sobre los autores disponibles"><strong> Indagar</strong> más</button>
+        
+            </section>
+
+            <section id="sumate">
+                
+                <h2 class="subtituloCentrado">¿Querés sumarte?</h2>
+                <p class="textoCentrado">Completá el siguiente formulario para mantenernos en contacto</p>
+        
+                <form id="formularioSumateItinerante">
+                
+                    <div class="form-group">
+                      
+                        <label for="formularioNombre">Nombre:</label>
+                       
+                        <input type="text" id="formularioNombre" name="nombre">
+                        
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="formularioApellido">Apellido:</label>
+                       
+                        <input type="text" id="formularioApellido" name="apellido">
+                        
+                    </div>
+
+                    <div class="form-group">
+                        <br>
+                        <label for="formularioCorreoElectronico">Email:</label>
+                       
+                        <input type="text" id="formularioCorreoElectronico" name="email" required>
+                        
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="formularioTelefono">Telefono:</label>
+                       
+                        <input type="number" id="formularioTelefono" name="telefono" pattern="[0-9]+" required>
+                        
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="formularioCiudad">Ciudad:</label>
+                       
+                        <input type="text" id="formularioCiudad" name="ciudad">
+                        
+                    </div>
+
+                    <div class="form-buttons">
+
+                        <input type="submit" value="Enviar">
+                      
+                        <input type="reset" value="Borrar">
+                    </div>
+                
+                </form>
+            
+            </section>
+            
+        
+            <section id="conoceOtrosItinerantes">
+ 
+                <h2 class="subtituloCentrado">Acá hay más para que mires</h2>
+                
+                <p class="textoCentrado">Hay muchas personas que se quieren sumar lecturas itinerantes en todo el país, acá te mostramos algunos ejemplos de lectores y bibliotecas itinetrantes para que te sumes.</p>
+            
+                
+                <div class="cardBibliotecasItinerantes">
+                    
+                    <div class="card-body">
+                      <h3 class="card-title">Bibliotecas Rurales</h3>
+                      <p class="card-text">Bibliotecas Rurales Argentinas es una asociación civil fundada en 1963 con el objeto de garantizar el acceso igualitario a los contenidos culturales en todo el país. Su función principal radica en la constitución de bibliotecas a lo largo de todo el territorio nacional, privilegiando zonas rurales y marginales.</p>
+                      <a href="https://bibliotecasrurales.org.ar/" class="link-button"><strong>Visitar</strong></a>
+                    </div>
+
+                </div>
+
+                <div class="cardBibliotecasItinerantes">
+                    
+                    <div class="card-body">
+                      <h3 class="card-title">Biblioteca Popular Monte Hermoso</h3>
+                      <p class="card-text">Fue creada por Interact Club en 1973, e impulsada por las ideas de los jóvenes fundadores orientadas al servicio de la comunidad.
+                        Con ese objetivo ha ido incorporando en forma permanente, diversas novedades en beneficio de sus usuarios. Entre ellas se destacan:
+                        Centro Multimedia, Servicios de Biblioteca Circulante para turistas, Servicios de Extensión Cultural, Café Literario, La Hora del Cuento, Encuentro Nacional de la Poesía y el Mar (durante la primera semana de febrero, convocando a poetas y escritores de todo el país y el exterior).</p>
+                      <a href="https://montehermoso.gov.ar/sitio/atractivos/biblioteca-popular-monte-hermoso/" class="link-button"><strong>Visitar</strong></a>
+                    </div>
+
+                </div>
+
+                <div class="cardBibliotecasItinerantes">
+                    
+                    <div class="card-body">
+                      <h3 class="card-title">Comisión Nacional de Bibliotecas Populares</h3>
+                      <p class="card-text">La Comisión Nacional de Bibliotecas Populares (CONABIP) es un organismo que fomenta el fortalecimiento de las bibliotecas populares como organizaciones de la sociedad civil e impulsa su valoración pública como espacios físicos y sociales relevantes para el desarrollo comunitario y la construcción de ciudadanía. 
+
+                        La CONABIP tiene como funciones orientar y ejecutar la política gubernamental, a través de un modelo de gestión asociado, que favorece la consolidación del carácter autónomo de este movimiento social único que tiene casi 1500 bibliotecas con más de 4 millones de usuarios, 20 millones de libros y 30.000 voluntarios que, a lo largo y a lo ancho del país, trabajan por el bien común desde 1870.</p>
+                      <a href="https://www.conabip.gob.ar" class="link-button"><strong>Visitar</strong></a>
+                    </div>
+
+                </div>
+                
+                <div class="cardBibliotecasItinerantes">
+                    
+                    <div class="card-body">
+                      <h3 class="card-title">Biblioteca Nacional Mariano Moreno</h3>
+                      <p class="card-text">Bibliotecas Rurales Argentinas es una asociación civil fundada en 1963 con el objeto de garantizar el acceso igualitario a los contenidos culturales en todo el país. Su función principal radica en la constitución de bibliotecas a lo largo de todo el territorio nacional, privilegiando zonas rurales y marginales.</p>
+                      <a href="https://www.bn.gov.ar/muestras-itinerantes" class="link-button"><strong>Visitar</strong></a>
+                    </div>
+
+                </div>
+            
+            </section>
+            
+        </main>
+    
+    </body>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+
+                <h4>Sobre Nosotros</h4>
+               
+                <h4>Newsletter</h4>
+                
+            </div>
+            
+            <div class="footer-section">
+                <h4>Enlaces Útiles</h4>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p>info@biblioitinerantes.com</p>
+                <p>Teléfono: 11 2345 7990</p>
+                <p>Avenida San Martín 650, CABA</p>
+            </div>
+    
+            <div class="footer-section">
+                <h4>Redes sociales oficiales</h4>
+                
+                <a href="#Facebook" aria-label="Visitar nuestro Facebook oficial"><img src="images/facebook-icon.svg" alt="Facebook"></a>
+                <a href="#X" aria-label="Visitar nuestro X oficial"><img src="images/twitter-icon.svg" alt="X"></a>
+                <a href="#Instagram" aria-label="Visitar nuestro Instagram oficial"><img src="images/instagram-icon.svg" alt="Instagram"></a>
+                <a href="#You Tube" aria-label="Visitar nuestro canal oficial de YouTube"><img src="images/youtube-icon.svg" alt="You Tube"></a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Lecturas Itinerantes S.A. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+
+</html>
